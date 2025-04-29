@@ -16,7 +16,7 @@ const Sidebar = () => {
       <div className={`sidebar ${isOpen ? "open" : ""}`}>
         <ul>
           <li>Dashboard</li>
-          <li className='active'>Users</li> {/* Users is active */}
+          <li className='active'>Users</li>
           <li>Settings</li>
         </ul>
       </div>
