@@ -1,0 +1,65 @@
+.user-table {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+.search-bar {
+  margin-bottom: 15px;
+}
+
+.search-bar input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.search-bar input::placeholder {
+  font-weight: bold;
+
+  color: rgb(3, 3, 3);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background-color: #9961613b;
+  color: #333;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #fdfdfd;
+}
+
+@media (max-width: 768px) {
+  .search-bar input {
+    width: 86%;
+  }
+
+  table {
+    min-width: unset;
+  }
+}
